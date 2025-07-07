@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>USA State Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <!-- Your CSS file (rename as needed, e.g., usa.css) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- App Header -->
+  <div class="app-header">
+    <button id="sidebar-toggle-btn" title="Show State List">☰</button>
+    <span id="map-title-label">UNITED STATES</span>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="state-sidebar" id="state-sidebar">
+    <h2>States of USA</h2>
+    <ul id="state-list"></ul>
+  </div>
+
+  <!-- Map -->
+  <div id="usa-map"></div>
+
+  <!-- Mobile: State Detail Panel -->
+  <div id="state-detail-panel"></div>
+
+  <!--Watermark-->
+  <div class="watermark">Wehunt.soln</div>
+
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Your adapted JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
